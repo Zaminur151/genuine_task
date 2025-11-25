@@ -1,1 +1,4 @@
-abstract class AuthRepository {}
+
+abstract class AuthRepository {
+  Future login(String username, String password, int comId);
+}

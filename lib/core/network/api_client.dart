@@ -7,11 +7,7 @@ class ApiClient {
 
   Future get(String endpoint) async {
     final url = Uri.parse(baseLink + endpoint);
-
-    final response = await http
-        .get(url)
-        .timeout(Duration(seconds: 15));
-
+    final response = await http.get(url).timeout(Duration(seconds: 15));
     return _handleResponse(response);
   }
 
