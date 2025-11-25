@@ -5,9 +5,9 @@ class ApiClient {
   final String baseLink = "https://www.pqstec.com/InvoiceApps/Values/";
   final String imageBaseLink = "https://www.pqstec.com/InvoiceApps/";
 
-  Future get(String endpoint) async {
+  Future get(String endpoint,{Map<String, String>? header}) async {
     final url = Uri.parse(baseLink + endpoint);
-    final response = await http.get(url).timeout(Duration(seconds: 15));
+    final response = await http.get(url, headers: header).timeout(Duration(seconds: 15));
     return _handleResponse(response);
   }
 
