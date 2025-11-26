@@ -1,16 +1,34 @@
-# genuine_task
+# Customer App – Flutter (GetX)
 
-A new Flutter project.
+A simple Flutter application built using GetX for state management. The app handles user login, fetches a paginated customer list, displays customer images, and shows proper error messages.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## APK Download
 
-A few resources to get you started if this is your first Flutter project:
+You can download the latest APK file here:  
+👉 [**Download Order Management APK**](https://github.com/Zaminur151/genuine_task/releases/tag/v01.0.1)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- User Login (GetX Controller)  
+- Customer list with pagination  
+- Customer image + details  
+- Proper error handling 
+- User-friendly and clean UI 
+- State management by GetX  
+- Clean Architecture 
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Feature | Package |
+|--------|----------|
+| State Management | GetX |
+| Architecture | Clean |
+| Customer List | Pagination |
+
+---
